@@ -17,6 +17,7 @@
         <div class="container">
             <nav class="navbar navbar-default">
                 <!-- ナビバーの内容 -->
+                <h1>Book List</h1>
             </nav>
         </div>
         @yield('content')
