@@ -1,0 +1,143 @@
+#container{
+    display: block;
+    z-index: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+#drag1{
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    display:flex;
+    z-index: 1;
+    width: 6%;
+    height: 6vw;
+    min-height: 80px;
+    min-width: 80px;
+    background-color: #ffb62d;
+    border: 1px solid black;
+}
+
+#yb{
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    display:flex;
+}
+
+#gb{
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    display:flex;
+}
+
+#bb{
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    display:flex;
+}
+
+.drag1{
+    position: absolute;
+    left: 6vw;
+    z-index: 1;
+    width: 6%;
+    height: 6vw;
+    min-height: 80px;
+    min-width: 80px;
+    background-color: #ffb62d;
+    border: 1px solid black;
+}
+
+#drag2{
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    display:flex;
+    z-index: 1;
+    width: 6%;
+    height: 6vw;
+    min-height: 80px;
+    min-width: 80px;
+    background-color: #49ad4d;
+    border: 1px solid black;
+}
+
+.drag2{
+    position: absolute;
+    left: 6vw;
+    z-index: 1;
+    width: 6%;
+    height: 6vw;
+    min-height: 80px;
+    min-width: 80px;
+    background-color: #49ad4d;
+    border: 1px solid black;
+}
+
+#drag3{
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    display:flex;
+    z-index: 1;
+    width: 6%;
+    height: 6vw;
+    min-height: 80px;
+    min-width: 80px;
+    background-color: #85e7eb;
+    border: 1px solid black;
+}
+
+.drag3{
+    position: absolute;
+    left: 6vw;
+    z-index: 1;
+    width: 6%;
+    height: 6vw;
+    min-height: 80px;
+    min-width: 80px;
+    background-color: #85e7eb;
+    border: 1px solid black;
+}
+
+
+.box{
+    display: block;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+
+.block{
+    display: block;
+    width: 6%;
+    height: 6vw;
+    min-height: 80px;
+    min-width: 80px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.flex{
+    display:flex;
+}
+
+#rowNum{
+
+}
+#culNum{
+
+}
+
+.Numb{
+    position: absolute;
+    left: 100px;
+    top: 600px;
+}
